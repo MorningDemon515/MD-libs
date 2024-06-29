@@ -10,3 +10,4 @@ BLITZ3D(const char*) ANSIToUTF8(const char* str)
 
 	return ansi_to_utf8(str).c_str();
 }
+
