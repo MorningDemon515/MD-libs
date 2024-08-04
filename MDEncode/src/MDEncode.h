@@ -6,13 +6,12 @@
 #include <windows.h>
 
 using namespace std;
-//方便使用宏!
 #define BLITZ3D(x) extern "C" __declspec(dllexport) x _stdcall
 
 string utf8_to_ansi(string);
 string ansi_to_utf8(string);
 char* utf8_to_ansi(char*);
-char* ansi_to_utf8(char*);//这个需要重载!不能少
+char* ansi_to_utf8(char*);
 
 string utf8_to_ansi(string strUTF8) {
 	UINT nLen = MultiByteToWideChar(CP_UTF8, NULL, strUTF8.c_str(), -1, NULL, NULL);

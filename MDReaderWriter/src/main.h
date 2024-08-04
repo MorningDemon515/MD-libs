@@ -14,7 +14,6 @@
 
 #include "inicpp/inicpp.hpp"
 
-//方便使用宏!
 #define BLITZ3D(x) extern "C" __declspec(dllexport) x _stdcall
 
 BLITZ3D(const char*) ReadINIstring(const char* file,const char* section,const char* key);
