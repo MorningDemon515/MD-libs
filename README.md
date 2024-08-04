@@ -7,6 +7,8 @@ MDEncode: Can be used for converting UTF8 encoded and ANSI encoded characters
 
 MDReaderWriter: Used for reading and writing ini and json files
 
+MDTexture: You can make the texture have a bumpy effect
+
 # How To Build
 
 1. git clone this repository
